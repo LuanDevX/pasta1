@@ -1,0 +1,178 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-dark: #08090D;
+    --bg-surface: #12131B;
+    --bg-elevated: #1B1D2A;
+    --neon-pink: #FF3CAC;
+    --neon-cyan: #00E5FF;
+    --sunset-orange: #FF8A3D;
+    --gold: #FFD166;
+    --night-purple: #24133D;
+    --soft-white: #F4F4F8;
+    
+    --gta3-blue: #38BDF8;
+    --gta3-yellow: #FACC15;
+    --gtasa-green: #10B981;
+    --gtasa-gold: #F59E0B;
+  }
+
+  body {
+    background-color: #08090D;
+    color: #F4F4F8;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Typography helper classes */
+.font-bebas {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.font-anton {
+  font-family: 'Anton', sans-serif;
+}
+
+.font-retro {
+  font-family: 'Righteous', cursive;
+}
+
+.font-syne {
+  font-family: 'Syne', sans-serif;
+}
+
+.font-mono-tech {
+  font-family: 'Space Mono', monospace;
+}
+
+/* Neon Text & Glow utilities */
+.text-neon-pink {
+  color: #FF3CAC;
+  text-shadow: 0 0 10px rgba(255, 60, 172, 0.65), 0 0 25px rgba(255, 60, 172, 0.35);
+}
+
+.text-neon-cyan {
+  color: #00E5FF;
+  text-shadow: 0 0 10px rgba(0, 229, 255, 0.65), 0 0 25px rgba(0, 229, 255, 0.35);
+}
+
+.text-neon-orange {
+  color: #FF8A3D;
+  text-shadow: 0 0 10px rgba(255, 138, 61, 0.65), 0 0 25px rgba(255, 138, 61, 0.35);
+}
+
+.text-neon-gold {
+  color: #FFD166;
+  text-shadow: 0 0 10px rgba(255, 209, 102, 0.65), 0 0 25px rgba(255, 209, 102, 0.35);
+}
+
+.text-neon-green {
+  color: #10B981;
+  text-shadow: 0 0 10px rgba(16, 185, 129, 0.65), 0 0 25px rgba(16, 185, 129, 0.35);
+}
+
+/* Neon Box Shadows */
+.shadow-neon-pink {
+  box-shadow: 0 0 20px rgba(255, 60, 172, 0.4), inset 0 0 15px rgba(255, 60, 172, 0.2);
+}
+
+.shadow-neon-cyan {
+  box-shadow: 0 0 20px rgba(0, 229, 255, 0.4), inset 0 0 15px rgba(0, 229, 255, 0.2);
+}
+
+.shadow-neon-green {
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.4), inset 0 0 15px rgba(16, 185, 129, 0.2);
+}
+
+.shadow-neon-gold {
+  box-shadow: 0 0 20px rgba(255, 209, 102, 0.4), inset 0 0 15px rgba(255, 209, 102, 0.2);
+}
+
+/* 80s Synthwave Grid & Scanline Effects */
+.retro-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 60, 172, 0.12) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 229, 255, 0.08) 1px, transparent 1px);
+}
+
+.retro-grid-perspective {
+  transform: perspective(400px) rotateX(60deg);
+  transform-origin: center bottom;
+}
+
+.scanlines {
+  background: linear-gradient(
+    to bottom,
+    rgba(255,255,255,0),
+    rgba(255,255,255,0) 50%,
+    rgba(0, 0, 0, 0.35) 50%,
+    rgba(0, 0, 0, 0.35)
+  );
+  background-size: 100% 4px;
+  pointer-events: none;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #08090D;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #24133D;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 60, 172, 0.3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF3CAC;
+}
+
+/* Animations */
+@keyframes neonPulse {
+  0%, 100% {
+    opacity: 1;
+    filter: drop-shadow(0 0 15px rgba(255, 60, 172, 0.8));
+  }
+  50% {
+    opacity: 0.85;
+    filter: drop-shadow(0 0 8px rgba(255, 60, 172, 0.4));
+  }
+}
+
+.animate-neon-pulse {
+  animation: neonPulse 3s ease-in-out infinite;
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-float {
+  animation: floatSlow 5s ease-in-out infinite;
+}
+
+@keyframes gridScroll {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 40px;
+  }
+}
+
+.animate-grid-scroll {
+  animation: gridScroll 2s linear infinite;
+}
