@@ -21,7 +21,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
       {/* Background Image with Cinematic Color Grading */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/vice-city-hero-sunset.jpg"
+          src={`${import.meta.env.BASE_URL}images/vice-city-hero-sunset.jpg`}
           alt="Vice City Outrun Sunset com Carro Clássico e Palmeiras"
           className="w-full h-full object-cover object-center scale-105 transition-transform duration-[10000ms] ease-out hover:scale-100"
         />

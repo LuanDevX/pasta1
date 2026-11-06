@@ -23,7 +23,7 @@ export const TRILOGY_GAMES: Game[] = [
     },
     shortDescription: 'Ternos em tons pastel, noites banhadas a neon, negócios bilionários de cocaína e a ascensão implacável de Tommy Vercetti ao trono criminal.',
     fullDescription: 'Lançado originalmente em 2002, Grand Theft Auto: Vice City transportou os jogadores para a década de 1980 em uma recriação vibrante de Miami. Após passar quinze anos na prisão de Liberty City por ordem dos Forelli, Tommy Vercetti é enviado para o sul para expandir os negócios da família. Quando uma transação milionária sofre uma emboscada violenta nas docas, Tommy perde o dinheiro e as drogas — iniciando uma caçada sangrenta para recuperar seu império e tomar a cidade inteira para si.',
-    backgroundImage: '/images/vice-city-infernus-beach.jpg',
+    backgroundImage: `${import.meta.env.BASE_URL}images/vice-city-infernus-beach.jpg`,
     features: [
       'Aquisição e gerenciamento de propriedades e negócios ilegais',
       'Trilha sonora cult dos anos 80 com mais de 9 horas de clássicos',
@@ -67,7 +67,7 @@ export const TRILOGY_GAMES: Game[] = [
     },
     shortDescription: 'Cultura hip-hop dos anos 90, guerra de gangues em Grove Street, guerras territoriais e a jornada épica de CJ através de três cidades.',
     fullDescription: 'Cinco anos atrás, Carl Johnson escapou das pressões da vida em Los Santos, San Andreas — uma cidade dilacerada por guerras de gangues, drogas e corrupção governamental. Agora, no início dos anos 90, CJ é obrigado a voltar para casa após o assassinato brutal de sua mãe. Sua família está despedaçada, seus amigos de infância caminham para o desastre e policiais corruptos armam para incriminá-lo por homicídio.',
-    backgroundImage: '/images/san-andreas-grovestreet.jpg',
+    backgroundImage: `${import.meta.env.BASE_URL}images/san-andreas-grovestreet.jpg`,
     features: [
       'Três metrópoles completas interligadas por desertos, montanhas e florestas',
       'Personalização profunda: condicionamento físico, tatuagens, roupas e carros',
@@ -111,7 +111,7 @@ export const TRILOGY_GAMES: Game[] = [
     },
     shortDescription: 'A revolução que definiu os jogos de mundo aberto 3D. Uma metrópole fria, implacável, chuvosa e dominada por cartéis e máfias em guerra.',
     fullDescription: 'Em outubro de 2001, GTA III revolucionou a indústria dos videogames para sempre, estabelecendo os alicerces do mundo aberto moderno. Traído e abandonado à beira da morte durante um assalto ao Liberty City Bank pela própria namorada Catalina, o protagonista silencioso Claude escapa de um comboio penitenciário na Ponte Callahan. Sem nada a perder, ele se infiltra no submundo da Máfia Leone, da Yakuza e dos Cartéis colombianos em busca de vingança.',
-    backgroundImage: '/images/liberty-city-panorama.jpg',
+    backgroundImage: `${import.meta.env.BASE_URL}images/liberty-city-panorama.jpg`,
     features: [
       'Pioneiro absoluto da revolução 3D em mundos abertos da história dos games',
       'Três ilhas industriais com atmosferas urbanas noir e chuva constante',
@@ -147,7 +147,7 @@ export const CHARACTERS: Character[] = [
     quote: 'Você tem uma escolha simples: ou você trabalha pra mim, ou eu tomo o que é seu à força.',
     description: 'Após cumprir 15 anos de cadeia em silêncio pela família Forelli, Tommy chega a Vice City sem dinheiro e com raiva de sobra. Carismático, implacável e dotado de instintos letais, ele derrubou Ricardo Diaz e tomou a mansão de Starfish Island.',
     fullBio: 'Nascido em Liberty City, Tommy começou cedo como soldado fiel de Sonny Forelli. Quando foi enviado para uma armadilha em Harwood e cercado por onze assassinos, ele eliminou todos e ganhou a alcunha de "O Açougueiro de Harwood". Ao chegar a Vice City em 1986, Tommy recusou o papel de mero capanga e transformou seu terno azul-bebê no símbolo do poder supremo da cidade.',
-    image: '/images/tommy-vercetti-portrait.jpg',
+    image: `${import.meta.env.BASE_URL}images/tommy-vercetti-portrait.jpg`,
     signatureWeapon: 'Colt Python .357 & M4',
     signatureVehicle: 'Infernus & PCJ-600',
     allegiance: 'Vercetti Crime Family',
@@ -170,7 +170,7 @@ export const CHARACTERS: Character[] = [
     quote: 'Grove Street é o meu lar. Eu posso ter saído daqui, mas a rua nunca saiu de mim.',
     description: 'Leal, versátil e movido por sua família. CJ transformou a decadente Grove Street Families na maior força de San Andreas, desvendando conspirações policiais e traições históricas.',
     fullBio: 'Carl passou 5 anos em Liberty City tentando esquecer a tragédia da morte do seu irmão mais novo Brian. Seu retorno a Los Santos em 1992 para o funeral de sua mãe Beverly desencadeia uma jornada épica que abrange desde corridas de lowriders em Ganton até o roubo milionário no cassino Caligula em Las Venturas, além da destruição do império de crack dos Ballas e da C.R.A.S.H.',
-    image: '/images/cj-portrait.jpg',
+    image: `${import.meta.env.BASE_URL}images/cj-portrait.jpg`,
     signatureWeapon: 'Desert Eagle & Tec-9',
     signatureVehicle: 'Savanna Lowrider & Hydra Jet',
     allegiance: 'Grove Street Families',
@@ -193,7 +193,7 @@ export const CHARACTERS: Character[] = [
     quote: '[Olhar gélido e recarregamento firme do fuzil M16]',
     description: 'O mercenário sem palavras que não hesita, não faz perguntas e não deixa testemunhas vivas. Seu único objetivo é caçar Catalina e vingar a traição no banco de Liberty City.',
     fullBio: 'Claude é a personificação do anti-herói frio e pragmático. Após escapar do camburão com 8-Ball na Ponte Callahan, ele trabalha para mafiosos italianos, a Yakuza de Asuka Kasen e o bilionário da mídia Donald Love. Sem hesitação moral, ele cumpre contratos de eliminação cirúrgica até o confronto final na Represa Cochrane.',
-    image: '/images/claude-speed-portrait.jpg',
+    image: `${import.meta.env.BASE_URL}images/claude-speed-portrait.jpg`,
     signatureWeapon: 'M16 Assault Rifle & Sniper',
     signatureVehicle: 'Banshee & Mafia Sentinel',
     allegiance: 'Independente / Contratante mais bem pago',
@@ -216,7 +216,7 @@ export const CHARACTERS: Character[] = [
     quote: 'Este é o Lance Vance Dance, Tommy! Nós vamos comandar esta cidade!',
     description: 'Copiloto de Tommy em sua caçada contra Ricardo Diaz pela morte de seu irmão Victor Vance. Charmoso em seu terno branco impecável, mas com uma instabilidade emocional que custou caro.',
     fullBio: 'Piloto experiente de helicópteros e ex-parceiro de Victor Vance, Lance uniu forças com Tommy após o roubo na doca. Sua sede impaciente por respeito e seus ressentimentos secretos o levaram a conspirar com Sonny Forelli no fatídico tiroteio final no Vercetti Estate.',
-    image: '/images/vice-city-tommy-neon.jpg',
+    image: `${import.meta.env.BASE_URL}images/vice-city-tommy-neon.jpg`,
     signatureWeapon: 'Micro SMG & Sniper Rifle',
     signatureVehicle: 'Infernus Branco',
     allegiance: 'Vance Crime Family / Forelli',
@@ -239,7 +239,7 @@ export const CHARACTERS: Character[] = [
     quote: 'Tudo o que tínhamos que fazer era seguir a porcaria do trem, CJ!',
     description: 'Figura icônica com apetite insaciável por fast food e provérbios filosóficos absurdos, que escondeu sob sua risada amigável a maior traição da história dos videogames.',
     fullBio: 'Membro sênior da Grove Street Families, Smoke seduziu Ryder e aliou-se ao Oficial Tenpenny da C.R.A.S.H. e aos Ballas para dominar o comércio de crack em Los Santos. Ele construiu sua fortaleza criminal na "Crack Palace" onde enfrentou CJ em um clímax inesquecível.',
-    image: '/images/san-andreas-lowrider.jpg',
+    image: `${import.meta.env.BASE_URL}images/san-andreas-lowrider.jpg`,
     signatureWeapon: 'Spas Shotgun & Desert Eagle',
     signatureVehicle: 'Glendale Azul Claro',
     allegiance: 'Ballas & C.R.A.S.H.',
@@ -262,7 +262,7 @@ export const CHARACTERS: Character[] = [
     quote: 'Minhas mãos estão queimadas, parceiro. Eu forneço os detonadores, você aperta o gatilho.',
     description: 'O homem que abriu as portas de Liberty City para Claude. Proprietário das lendárias oficinas de carros-bomba com filiais em Portland, Staunton e Shoreside Vale.',
     fullBio: 'Com mãos enfaixadas devido a um acidente com explosivos na prisão, 8-Ball é a ponte entre as gangues e os armamentos pesados. Ele planejou a explosão espetacular do navio do Cartel Colombiano no Porto de Portland.',
-    image: '/images/vice-city-tommy-night.jpg',
+    image: `${import.meta.env.BASE_URL}images/vice-city-tommy-night.jpg`,
     signatureWeapon: 'Detonador C4 & Lança-Chamas',
     signatureVehicle: 'Enforcer Blindado',
     allegiance: 'Leone Family / Amigo Leal de Claude',
@@ -286,7 +286,7 @@ export const CITIES: City[] = [
     year: '1986',
     climate: 'Tropical, pôr do sol incandescente e tempestades súbitas',
     accentColor: '#FF3CAC',
-    image: '/images/vice-city-hero-sunset.jpg',
+    image: `${import.meta.env.BASE_URL}images/vice-city-hero-sunset.jpg`,
     overview: 'Construída sobre areias douradas, palmeiras exóticas e rios de dinheiro ilícito. Vice City é a síntese do glamour americano e da devassidão criminal dos anos 80, dividida entre as praias de luxo e o continente industrial.',
     districts: [
       {
@@ -334,7 +334,7 @@ export const CITIES: City[] = [
     year: '1992',
     climate: 'Névoa litorânea, deserto escaldante e brisas metropolitanas',
     accentColor: '#10B981',
-    image: '/images/san-andreas-grovestreet.jpg',
+    image: `${import.meta.env.BASE_URL}images/san-andreas-grovestreet.jpg`,
     overview: 'Um estado colossal composto por três capitais marcantes — a ensolarada Los Santos, a montanhosa e sofisticada San Fierro e a eletrizante Las Venturas —, entremeadas por condados rurais e desfiladeiros.',
     districts: [
       {
@@ -374,7 +374,7 @@ export const CITIES: City[] = [
     year: '2001',
     climate: 'Céus cinzentos, asfalto molhado, chuvas constantes e nevoeiro denso',
     accentColor: '#38BDF8',
-    image: '/images/liberty-city-panorama.jpg',
+    image: `${import.meta.env.BASE_URL}images/liberty-city-panorama.jpg`,
     overview: 'Apelidada de o "Pior Lugar da América", Liberty City é uma selva de concreto dividida em três ilhas desiguais interligadas por pontes e túneis em constante bloqueio policial.',
     districts: [
       {
@@ -413,7 +413,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Pôr do Sol em Washington Beach',
     gameId: 'vice-city',
     category: 'vice-city',
-    image: '/images/vice-city-hero-sunset.jpg',
+    image: `${import.meta.env.BASE_URL}images/vice-city-hero-sunset.jpg`,
     caption: 'O icônico horizonte de Vice City ao entardecer: superesportivos na rodovia sob o sol poente e palmeiras tropicais.',
     aspect: 'wide',
     tag: 'Vice City 1986'
@@ -423,7 +423,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Tommy Vercetti em Ocean Drive',
     gameId: 'vice-city',
     category: 'vice-city',
-    image: '/images/vice-city-tommy-neon.jpg',
+    image: `${import.meta.env.BASE_URL}images/vice-city-tommy-neon.jpg`,
     caption: 'Tommy Vercetti em seu clássico terno azul-bebê em frente ao letreiro luminoso do Ocean View Hotel.',
     aspect: 'square',
     tag: 'Protagonista'
@@ -433,7 +433,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'O Lendário Malibu Club',
     gameId: 'vice-city',
     category: 'vice-city',
-    image: '/images/vice-city-malibu-club.jpg',
+    image: `${import.meta.env.BASE_URL}images/vice-city-malibu-club.jpg`,
     caption: 'A fachada Art Déco do Malibu Club brilhando em neon magenta e ciano com um esportivo branco estacionado.',
     aspect: 'wide',
     tag: 'Noite & Glamour'
@@ -443,7 +443,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Infernus na Praia ao Entardecer',
     gameId: 'vice-city',
     category: 'veiculos',
-    image: '/images/vice-city-infernus-beach.jpg',
+    image: `${import.meta.env.BASE_URL}images/vice-city-infernus-beach.jpg`,
     caption: 'O superesportivo Infernus vermelho descansando nas areias de Washington Beach enquanto os neons da orla acendem.',
     aspect: 'wide',
     tag: 'Supercarros'
@@ -453,7 +453,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Grove Street ao Cair da Noite',
     gameId: 'san-andreas',
     category: 'san-andreas',
-    image: '/images/san-andreas-grovestreet.jpg',
+    image: `${import.meta.env.BASE_URL}images/san-andreas-grovestreet.jpg`,
     caption: 'O lendário cul-de-sac de Ganton com o horizonte iluminado dos arranha-céus de Los Santos ao fundo.',
     aspect: 'wide',
     tag: 'Los Santos'
@@ -463,7 +463,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Lowrider Hidráulico em Los Santos',
     gameId: 'san-andreas',
     category: 'veiculos',
-    image: '/images/san-andreas-lowrider.jpg',
+    image: `${import.meta.env.BASE_URL}images/san-andreas-lowrider.jpg`,
     caption: 'Um clássico lowrider verde metálico com suspensão hidráulica inclinada sob a iluminação noturna das ruas.',
     aspect: 'wide',
     tag: 'Cultura Lowrider'
@@ -473,7 +473,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Carl "CJ" Johnson — O Retorno',
     gameId: 'san-andreas',
     category: 'san-andreas',
-    image: '/images/cj-portrait.jpg',
+    image: `${import.meta.env.BASE_URL}images/cj-portrait.jpg`,
     caption: 'CJ com sua corrente dourada e olhar determinado diante do pôr do sol dourado da Califórnia dos anos 90.',
     aspect: 'square',
     tag: 'Grove Street'
@@ -483,7 +483,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Panorama Sombrio de Liberty City',
     gameId: 'gta3',
     category: 'gta3',
-    image: '/images/liberty-city-panorama.jpg',
+    image: `${import.meta.env.BASE_URL}images/liberty-city-panorama.jpg`,
     caption: 'A silhueta enevoada da Ponte Callahan e os arranha-céus sombrios de Liberty City banhados por chuva constante.',
     aspect: 'wide',
     tag: 'Liberty City'
@@ -493,7 +493,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Claude Speed — O Vingador Sem Palavras',
     gameId: 'gta3',
     category: 'gta3',
-    image: '/images/claude-speed-portrait.jpg',
+    image: `${import.meta.env.BASE_URL}images/claude-speed-portrait.jpg`,
     caption: 'Claude em sua jaqueta militar verde escuro no asfalto molhado de Saint Mark\'s com reflexos de neon azul e táxis amarelos.',
     aspect: 'tall',
     tag: 'GTA III Clássico'
@@ -503,7 +503,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: 'Madrugada Estrelada em Ocean Beach',
     gameId: 'vice-city',
     category: 'cidades',
-    image: '/images/vice-city-tommy-night.jpg',
+    image: `${import.meta.env.BASE_URL}images/vice-city-tommy-night.jpg`,
     caption: 'Céu estrelado de Vice City com o HUD clássico de vida e radar do jogo enquanto a lua brilha sobre os hotéis.',
     aspect: 'wide',
     tag: 'Atmosfera Retrô'
