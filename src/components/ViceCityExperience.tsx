@@ -21,7 +21,7 @@ const HOTSPOTS: Hotspot[] = [
     coords: { x: 22, y: 55 },
     tagline: 'O primeiro refúgio de Tommy Vercetti',
     description: 'Com seu letreiro rosa choque de tirar o fôlego, o Ocean View Hotel serviu como quartel-general inicial de Tommy logo após o fiasco da negociação nas docas. Uma suíte modesta com vista para o mar e uma secretária eletrônica repleta de recados perigosos.',
-    image: '/images/vice-city-tommy-neon.jpg',
+    image: `${import.meta.env.BASE_URL}images/vice-city-tommy-neon.jpg`,
     soundVibe: 'Wave 103 • Synthpop Nostálgico'
   },
   {
@@ -31,7 +31,7 @@ const HOTSPOTS: Hotspot[] = [
     coords: { x: 68, y: 38 },
     tagline: 'O coração pulsante da vida noturna',
     description: 'O clube mais exclusivo e disputado de toda Vice City. Conhecido pelos dançarinos caracterizados no palco, coquetéis exorbitantes e onde Tommy orquestrou com Cam Jones e Phil Cassidy o lendário assalto ao Banco El Corrupto.',
-    image: '/images/vice-city-malibu-club.jpg',
+    image: `${import.meta.env.BASE_URL}images/vice-city-malibu-club.jpg`,
     soundVibe: 'Flash FM • Michael Jackson & Hall & Oates'
   },
   {
@@ -41,7 +41,7 @@ const HOTSPOTS: Hotspot[] = [
     coords: { x: 48, y: 65 },
     tagline: 'O palácio do rei de Vice City',
     description: 'Originalmente o império privado do temperamental Ricardo Diaz. Após a missão "Rub Out", Tommy e Lance tomaram a mansão de assalto com direito a heliporto privado, labirinto nos jardins e sala de vigilância.',
-    image: '/images/vice-city-tommy-night.jpg',
+    image: `${import.meta.env.BASE_URL}images/vice-city-tommy-night.jpg`,
     soundVibe: 'Emotion 98.3 • Baladas de Saxofone'
   },
   {
@@ -51,7 +51,7 @@ const HOTSPOTS: Hotspot[] = [
     coords: { x: 80, y: 72 },
     tagline: 'Areias douradas e superesportivos',
     description: 'A orla tropical dos sonhos onde os milionários desfilam seus Infernus vermelhos e Cheetahs ao lado de patinadores e palmeiras banhadas pela brisa do Atlântico.',
-    image: '/images/vice-city-infernus-beach.jpg',
+    image: `${import.meta.env.BASE_URL}images/vice-city-infernus-beach.jpg`,
     soundVibe: 'Fever 105 • Soul & Disco 80s'
   }
 ];
